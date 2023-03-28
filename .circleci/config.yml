@@ -38,7 +38,7 @@ test:
     - mvn package
 
   post:
-    - mv target/*.war $CIRCLE_ARTIFACTS/      
+    - mv target/*.war $CIRCLE_WORKING_DIRECTORY/      
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
