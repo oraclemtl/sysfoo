@@ -1,8 +1,8 @@
 
 
-test:
-  override:
-    - mvn package123
+#test:
+#  override:
+#    - mvn package123
 
-  post:
-    - mv target/*.war $CIRCLE_ARTIFACTS/
+#  post:
+#   - mv target/*.war $CIRCLE_ARTIFACTS/
